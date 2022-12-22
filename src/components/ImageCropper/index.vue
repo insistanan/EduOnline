@@ -157,7 +157,7 @@ export default {
     // 不显示旋转功能
     noRotate: {
       type: Boolean,
-      default: true
+      default: false
     },
     // 不预览圆形图片
     noCircle: {
@@ -172,7 +172,7 @@ export default {
     // 单文件大小限制
     maxSize: {
       type: Number,
-      'default': 10240
+      'default': 10240*3
     },
     // 语言类型
     langType: {
@@ -192,7 +192,7 @@ export default {
     // 是否支持跨域
     withCredentials: {
       type: Boolean,
-      'default': false
+      'default': true
     }
   },
   data() {
